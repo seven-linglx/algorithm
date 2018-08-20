@@ -3,5 +3,16 @@ set(PROJECT_NAME LoopBack)
 project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES loopback.cpp)
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+find_file(Eigen REQUIRED)
+
+set(SOURCE_FILES_L loopback.cpp)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES_L})
+
+set(SOURCE_FILES_S sort.cpp)
+add_executable(Sort ${SOURCE_FILES_S})
+
+set(SOURCE_FILES_B bst.cpp)
+add_executable(BST ${SOURCE_FILES_B})
+
+set(SOURCE_FILES_G seed_growth.cpp)
+add_executable(SeedGrowth ${SOURCE_FILES_G})
