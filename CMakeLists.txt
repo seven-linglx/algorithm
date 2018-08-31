@@ -23,3 +23,6 @@ add_executable(Stair ${SOURCE_FILES_stair})
 
 set(SOURCE_FILES_sort quick_sort.cpp)
 add_executable(QuickSort ${SOURCE_FILES_sort})
+
+set(SOURCE_FILES_sunday sunday.cpp)
+add_executable(Sunday ${SOURCE_FILES_sunday})
