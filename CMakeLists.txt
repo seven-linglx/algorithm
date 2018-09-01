@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-set(PROJECT_NAME LoopBack)
+set(PROJECT_NAME Algorithm)
 project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 11)
 
@@ -7,7 +7,7 @@ find_file(Eigen REQUIRED)
 INCLUDE_DIRECTORIES(/usr/include/eigen3)
 
 set(SOURCE_FILES_L loopback.cpp)
-add_executable(${PROJECT_NAME} ${SOURCE_FILES_L})
+add_executable(LoopBack ${SOURCE_FILES_L})
 
 set(SOURCE_FILES_B bst.cpp)
 add_executable(BST ${SOURCE_FILES_B})
@@ -26,3 +26,6 @@ add_executable(QuickSort ${SOURCE_FILES_sort})
 
 set(SOURCE_FILES_sunday sunday.cpp)
 add_executable(Sunday ${SOURCE_FILES_sunday})
+
+set(SOURCE_FILES_dijkstar dijkstar.cpp)
+add_executable(Dijkstar ${SOURCE_FILES_dijkstar})
