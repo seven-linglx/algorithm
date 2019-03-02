@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.4)
 set(PROJECT_NAME Algorithm)
 project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 11)
@@ -29,3 +29,6 @@ add_executable(Sunday ${SOURCE_FILES_sunday})
 
 set(SOURCE_FILES_dijkstar dijkstar.cpp)
 add_executable(Dijkstar ${SOURCE_FILES_dijkstar})
+
+set(SOURCE_FILES_sorts sort.cpp)
+add_executable(Sort ${SOURCE_FILES_sorts})

@@ -3,3 +3,6 @@ cmake-build-*
 GP*
 GR*
 GT*
+CMakeFiles/
+.projectile
+CMakeCache.txt
