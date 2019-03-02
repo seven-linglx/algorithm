@@ -1,0 +1,25 @@
+#+Title: 数据结构与算法实践
+* 简介(Introduction)
+  这里是学习数据结构与算法课程时的练习，包含一些经典排序算法，以及一些基础算法题目的解法。
+  
+* 编译与运行(Compile&Run)
+#+BEGIN_SRC sh
+mkdir build
+cd build
+cmake ..
+make
+./[target algorithm]
+#+END_SRC
+
+* 目录(Content)
+- CMakeLists.txt 工程使用CMake构建，这里面包含工程相关编译配置
+- output.h 自定义一些数据结构的打印方式
+- bst.cpp 二叉树数据结构，实现创建一棵二叉树，以及前中后序遍历二叉树
+- dijkstar.cpp 最短路径算法Dijkstar
+- loopback.cpp 字符串回环问题，寻找字符串中的回环及其个数和位置
+- queens.cpp 八皇后问题
+- quick_sort.cpp 快速排序
+- seed_growth.cpp 种子生长算法，使用队列数据结构的先进先出特性
+- sort.cpp 排序算法，包含另一种快速排序实现，插入排序，Shell排序
+- stair.cpp 爬楼梯问题，使用递归方法实现
+- sunday.cpp 字符串匹配问题的Sunday算法
