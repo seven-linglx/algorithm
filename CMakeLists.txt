@@ -32,3 +32,6 @@ add_executable(Dijkstar ${SOURCE_FILES_dijkstar})
 
 set(SOURCE_FILES_sorts sort.cpp)
 add_executable(Sort ${SOURCE_FILES_sorts})
+
+set(SOURCE_FILES_BFT bft.cpp)
+add_executable(BFT ${SOURCE_FILES_BFT})

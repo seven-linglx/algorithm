@@ -15,6 +15,7 @@ make
 - CMakeLists.txt 工程使用CMake构建，这里面包含工程相关编译配置
 - output.h 自定义一些数据结构的打印方式
 - bst.cpp 二叉树数据结构，实现创建一棵二叉树，以及前中后序遍历二叉树
+- bft.cpp 创建一棵二叉树，二叉树查找、检查和打印
 - dijkstar.cpp 最短路径算法Dijkstar
 - loopback.cpp 字符串回环问题，寻找字符串中的回环及其个数和位置
 - queens.cpp 八皇后问题
