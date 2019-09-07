@@ -6,3 +6,5 @@ GT*
 CMakeFiles/
 .projectile
 CMakeCache.txt
+.idea/
+.cache/
