@@ -30,7 +30,6 @@ add_executable(Sunday ${SOURCE_FILES_sunday})
 set(SOURCE_FILES_dijkstar dijkstar.cpp)
 add_executable(Dijkstar ${SOURCE_FILES_dijkstar})
 
-<<<<<<< 9c9384f8d488acc922c93aa03437ce58e2c2462b
 set(SOURCE_FILES_sorts sort.cpp)
 add_executable(Sort ${SOURCE_FILES_sorts})
 
