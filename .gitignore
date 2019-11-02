@@ -10,3 +10,4 @@ CMakeCache.txt
 .cache/
 __pycache__/
 .ccls-cache/
+.vscode
