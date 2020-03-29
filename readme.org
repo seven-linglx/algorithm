@@ -42,3 +42,4 @@ make
 13. z-transfrom.py Z 字形变换 #6题解
 14. generate_brackets.py 生成目标括号对数 #22题解
 15. three_sum_closest.py 最接近的三数之和 #16题解
+16. daily_temperatures.py 每日温度 #739题解
