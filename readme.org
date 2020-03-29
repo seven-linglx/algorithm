@@ -36,8 +36,9 @@ make
 7. max_area.py 盛最多水的容器 #11题解
 8. pyatoi.py 字符串转换整数 (atoi) #8题解
 9. pypow.py Pow(x, n) #50题解
-11. three_sum.py 三数之和 #15题解
-12. two_sum.py 两数之和 #1题解
-13. valid_brackets.py 有效的括号 #20题解
-14. z-transfrom.py Z 字形变换 #6题解
-15. generate_brackets.py 生成目标括号对数 #22题解
+10. three_sum.py 三数之和 #15题解
+11. two_sum.py 两数之和 #1题解
+12. valid_brackets.py 有效的括号 #20题解
+13. z-transfrom.py Z 字形变换 #6题解
+14. generate_brackets.py 生成目标括号对数 #22题解
+15. three_sum_closest.py 最接近的三数之和 #16题解
