@@ -43,3 +43,4 @@ make
 14. generate_brackets.py 生成目标括号对数 #22题解
 15. three_sum_closest.py 最接近的三数之和 #16题解
 16. daily_temperatures.py 每日温度 #739题解
+17. partitiion_tree.py 区间树
