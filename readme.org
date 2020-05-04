@@ -48,3 +48,4 @@ make
 19. coin_change.py 凑零钱 #322题解
 20. change.py 凑零钱II #518题解
 21. minest_substring 最小覆盖子串 #76题解
+22. split_into_fibonacci_842.py 将数组拆分成斐波那契序列 #842题解
