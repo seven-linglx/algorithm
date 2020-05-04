@@ -47,3 +47,4 @@ make
 18. video_stitching.py 视频拼接 #1024题解
 19. coin_change.py 凑零钱 #322题解
 20. change.py 凑零钱II #518题解
+21. minest_substring 最小覆盖子串 #76题解
