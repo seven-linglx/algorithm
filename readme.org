@@ -51,3 +51,4 @@ make
 22. split_into_fibonacci_842.py 将数组拆分成斐波那契序列 #842题解
 23. max_path_sum_124.py 二叉树中的最大路径和 #124题解
 24. visit_all_rooms_841.py 房间与钥匙 #841题解
+25. remove_nth_from_end_19.py 删除倒数第N个节点,快慢指针 #19题解
