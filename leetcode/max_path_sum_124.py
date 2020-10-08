@@ -68,6 +68,7 @@ def postorder_traversal(root: TreeNode, ans):
 
 
 def inorder_traversal(root: TreeNode, values: list, max_value: list):
+    """有漏解"""
     if not root:
         return
     inorder_traversal(root.left, values, max_value)
