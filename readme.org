@@ -54,3 +54,4 @@ make
 25. remove_nth_from_end_19.py 删除倒数第N个节点,快慢指针 #19题解
 26. longest_arith_seq_len_1027.py 最长等差子序列,动态规划 #1027题解
 27. jump_game_ii_45.py 跳跃游戏,贪心算法 #45题解
+28. jump_game_i_55.py 跳跃游戏,贪心算法 #55题解
