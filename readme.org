@@ -55,3 +55,4 @@ make
 26. longest_arith_seq_len_1027.py 最长等差子序列,动态规划 #1027题解
 27. jump_game_ii_45.py 跳跃游戏,贪心算法 #45题解
 28. jump_game_i_55.py 跳跃游戏,贪心算法 #55题解
+29. merge_two_lists_21.py 合并两个链表,双指针 #21题解
