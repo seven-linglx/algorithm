@@ -15,12 +15,7 @@
 
 你能尝试使用一趟扫描实现吗？
 """
-
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from node import ListNode, list_to_node, node_to_list
 
 
 class Solution:
@@ -42,21 +37,12 @@ class Solution:
         return head
 
 
-def build(nums):
-    next_node = head = ListNode(nums[0])
-    for i in range(1, len(nums)):
-        next_node.next = ListNode(nums[i])
-        next_node = next_node.next
-    return head
+def build(nums: list) -> ListNode:
+    return list_to_node(nums)
 
 
-def output(head):
-    result = []
-    next_node = head
-    while next_node:
-        result.append(next_node.val)
-        next_node = next_node.next
-    return result
+def output(head: ListNode) -> list:
+    return node_to_list(head)
 
 
 def test():

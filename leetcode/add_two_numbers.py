@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -8,13 +7,7 @@
 输出：7 -> 0 -> 8
 原因：342 + 465 = 807
 """
-
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from node import ListNode, list_to_node, node_to_list
 
 
 class Solution:
@@ -43,20 +36,12 @@ class Solution:
 
     @staticmethod
     def stdout(l: ListNode):
-        res = []
-        _l = l
-        while _l is not None:
-            res.append(str(_l.val))
-            _l = _l.next
+        res = map(str, node_to_list(l))
         print("->".join(res))
 
     def test(self):
-        l1 = ListNode(5)
-        l1.next = ListNode(4)
-        l1.next.next = ListNode(3)
-        l2 = ListNode(5)
-        l2.next = ListNode(6)
-        l2.next.next = ListNode(4)
+        l1 = list_to_node([5, 4, 3])
+        l2 = list_to_node([5, 6, 4])
         self.stdout(l1)
         self.stdout(l2)
         self.stdout(self.add_two_numbers(l1, l2))
